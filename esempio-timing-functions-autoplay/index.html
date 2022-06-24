@@ -13,7 +13,12 @@
 </head>
 <body>
 
-    <h1>TEST</h1>
+    <div id="root">
+        <div class="counter">{{ counter }}</div>
+
+        <button :disabled="autoplayClock !== null" @click="startAutoplay()">Start</button>
+        <button @click="stopCounter()">Stop</button>
+    </div>
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
