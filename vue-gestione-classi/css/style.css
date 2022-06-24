@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.image {
+    width: 350px;
+    display: block;
+}
+
+.image-gray {
+    filter: grayscale(1);
+}
+
+.image-small {
+    transform: scale(0.5);
+}
+
+button {
+    margin-top: 10px;
+}
